@@ -1,5 +1,4 @@
 function! GetCursorChar()
-	echo "in"
 	let index = col(".")
 	let l = line(".")
 	let lastChar =getline(".")[index-2]
